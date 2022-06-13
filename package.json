@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-bdd-",
+  "version": "1.0.0",
+  "description": "cucumber-bdd-tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KylieNamugga/Cucumber-BDD-.git"
+  },
+  "author": "Kylie Namugga and Nina Kenyonyozi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KylieNamugga/Cucumber-BDD-/issues"
+  },
+  "homepage": "https://github.com/KylieNamugga/Cucumber-BDD-#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.3.0"
+  }
+}
