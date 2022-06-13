@@ -20,3 +20,4 @@ Don't forget to change your test to cucumber-js as we you do with Mocha in TDD.
 In your root folder, add a features folder, .gitignore file for your node modules and a cucumber.js file.
 In your features folder, create a file called "totalAmountSpent.feature" this while hold our scenario.
 Create another folder called "step_definitions" and within it create a file called "stepdefs.js".
+Let's run our tests.
