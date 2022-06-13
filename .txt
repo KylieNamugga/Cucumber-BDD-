@@ -1,0 +1,22 @@
+WHAT IS CUCUMBER?
+Cucumber is a software tool that supports behavior-driven development.
+It reads executable specifications written in plain text and 
+validates that the software does what those specifications say.
+The specifications consist of multiple examples which we call scenarios. 
+
+Each scenario is a list of steps for Cucumber to work through. 
+Cucumber verifies that the software conforms with the specification and generates a report
+indicating success or failure for each scenario.
+
+Now In order for Cucumber to understand the scenarios, 
+they must follow some basic syntax rules, called Gherkin.
+Gherkin is a set of grammar rules that makes plain text structured enough 
+for Cucumber to understand and hence execute.
+
+STEPS
+The first step is to create a new directory called cucumber.
+Then install your package manager and install cucumber as a dev dependency.
+Don't forget to change your test to cucumber-js as we you do with Mocha in TDD.
+In your root folder, add a features folder, .gitignore file for your node modules and a cucumber.js file.
+In your features folder, create a file called "totalAmountSpent.feature" this while hold our scenario.
+Create another folder called "step_definitions" and within it create a file called "stepdefs.js".
